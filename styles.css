@@ -1,0 +1,72 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main content area */
+main {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Holiday sections */
+.holiday {
+    overflow: hidden;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Christmas section */
+.christmas {
+    background-color: #d32f2f;
+    color: white;
+}
+
+/* Halloween section */
+.halloween {
+    background-color: #ff9800;
+    color: white;
+}
+
+/* Image styling */
+.holiday img {
+    width: 15%;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Float images */
+.christmas img {
+    float: left;
+}
+
+.halloween img {
+    float: right;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
